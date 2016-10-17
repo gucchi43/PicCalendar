@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDAFC9811DB51D1300673609 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAFC9801DB51D1300673609 /* AppDelegate.swift */; };
+		EDAFC9831DB51D1300673609 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAFC9821DB51D1300673609 /* ViewController.swift */; };
+		EDAFC9861DB51D1300673609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAFC9841DB51D1300673609 /* Main.storyboard */; };
+		EDAFC9881DB51D1300673609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDAFC9871DB51D1300673609 /* Assets.xcassets */; };
+		EDAFC98B1DB51D1300673609 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAFC9891DB51D1300673609 /* LaunchScreen.storyboard */; };
+		EDAFC9961DB51D1300673609 /* selectDayPicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAFC9951DB51D1300673609 /* selectDayPicTests.swift */; };
+		EDAFC9A11DB51D1300673609 /* selectDayPicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAFC9A01DB51D1300673609 /* selectDayPicUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDAFC9921DB51D1300673609 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDAFC9751DB51D1300673609 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDAFC97C1DB51D1300673609;
+			remoteInfo = selectDayPic;
+		};
+		EDAFC99D1DB51D1300673609 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDAFC9751DB51D1300673609 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDAFC97C1DB51D1300673609;
+			remoteInfo = selectDayPic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDAFC97D1DB51D1300673609 /* selectDayPic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = selectDayPic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDAFC9801DB51D1300673609 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDAFC9821DB51D1300673609 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDAFC9851DB51D1300673609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDAFC9871DB51D1300673609 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDAFC98A1DB51D1300673609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDAFC98C1DB51D1300673609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDAFC9911DB51D1300673609 /* selectDayPicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = selectDayPicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDAFC9951DB51D1300673609 /* selectDayPicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectDayPicTests.swift; sourceTree = "<group>"; };
+		EDAFC9971DB51D1300673609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDAFC99C1DB51D1300673609 /* selectDayPicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = selectDayPicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDAFC9A01DB51D1300673609 /* selectDayPicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectDayPicUITests.swift; sourceTree = "<group>"; };
+		EDAFC9A21DB51D1300673609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDAFC97A1DB51D1300673609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAFC98E1DB51D1300673609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAFC9991DB51D1300673609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDAFC9741DB51D1300673609 = {
+			isa = PBXGroup;
+			children = (
+				EDAFC97F1DB51D1300673609 /* selectDayPic */,
+				EDAFC9941DB51D1300673609 /* selectDayPicTests */,
+				EDAFC99F1DB51D1300673609 /* selectDayPicUITests */,
+				EDAFC97E1DB51D1300673609 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDAFC97E1DB51D1300673609 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDAFC97D1DB51D1300673609 /* selectDayPic.app */,
+				EDAFC9911DB51D1300673609 /* selectDayPicTests.xctest */,
+				EDAFC99C1DB51D1300673609 /* selectDayPicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDAFC97F1DB51D1300673609 /* selectDayPic */ = {
+			isa = PBXGroup;
+			children = (
+				EDAFC9801DB51D1300673609 /* AppDelegate.swift */,
+				EDAFC9821DB51D1300673609 /* ViewController.swift */,
+				EDAFC9841DB51D1300673609 /* Main.storyboard */,
+				EDAFC9871DB51D1300673609 /* Assets.xcassets */,
+				EDAFC9891DB51D1300673609 /* LaunchScreen.storyboard */,
+				EDAFC98C1DB51D1300673609 /* Info.plist */,
+			);
+			path = selectDayPic;
+			sourceTree = "<group>";
+		};
+		EDAFC9941DB51D1300673609 /* selectDayPicTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDAFC9951DB51D1300673609 /* selectDayPicTests.swift */,
+				EDAFC9971DB51D1300673609 /* Info.plist */,
+			);
+			path = selectDayPicTests;
+			sourceTree = "<group>";
+		};
+		EDAFC99F1DB51D1300673609 /* selectDayPicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDAFC9A01DB51D1300673609 /* selectDayPicUITests.swift */,
+				EDAFC9A21DB51D1300673609 /* Info.plist */,
+			);
+			path = selectDayPicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDAFC97C1DB51D1300673609 /* selectDayPic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDAFC9A51DB51D1300673609 /* Build configuration list for PBXNativeTarget "selectDayPic" */;
+			buildPhases = (
+				EDAFC9791DB51D1300673609 /* Sources */,
+				EDAFC97A1DB51D1300673609 /* Frameworks */,
+				EDAFC97B1DB51D1300673609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = selectDayPic;
+			productName = selectDayPic;
+			productReference = EDAFC97D1DB51D1300673609 /* selectDayPic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDAFC9901DB51D1300673609 /* selectDayPicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDAFC9A81DB51D1300673609 /* Build configuration list for PBXNativeTarget "selectDayPicTests" */;
+			buildPhases = (
+				EDAFC98D1DB51D1300673609 /* Sources */,
+				EDAFC98E1DB51D1300673609 /* Frameworks */,
+				EDAFC98F1DB51D1300673609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDAFC9931DB51D1300673609 /* PBXTargetDependency */,
+			);
+			name = selectDayPicTests;
+			productName = selectDayPicTests;
+			productReference = EDAFC9911DB51D1300673609 /* selectDayPicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDAFC99B1DB51D1300673609 /* selectDayPicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDAFC9AB1DB51D1300673609 /* Build configuration list for PBXNativeTarget "selectDayPicUITests" */;
+			buildPhases = (
+				EDAFC9981DB51D1300673609 /* Sources */,
+				EDAFC9991DB51D1300673609 /* Frameworks */,
+				EDAFC99A1DB51D1300673609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDAFC99E1DB51D1300673609 /* PBXTargetDependency */,
+			);
+			name = selectDayPicUITests;
+			productName = selectDayPicUITests;
+			productReference = EDAFC99C1DB51D1300673609 /* selectDayPicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDAFC9751DB51D1300673609 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "HIroki Taniguti";
+				TargetAttributes = {
+					EDAFC97C1DB51D1300673609 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EDAFC9901DB51D1300673609 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EDAFC97C1DB51D1300673609;
+					};
+					EDAFC99B1DB51D1300673609 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EDAFC97C1DB51D1300673609;
+					};
+				};
+			};
+			buildConfigurationList = EDAFC9781DB51D1300673609 /* Build configuration list for PBXProject "selectDayPic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDAFC9741DB51D1300673609;
+			productRefGroup = EDAFC97E1DB51D1300673609 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDAFC97C1DB51D1300673609 /* selectDayPic */,
+				EDAFC9901DB51D1300673609 /* selectDayPicTests */,
+				EDAFC99B1DB51D1300673609 /* selectDayPicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDAFC97B1DB51D1300673609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAFC98B1DB51D1300673609 /* LaunchScreen.storyboard in Resources */,
+				EDAFC9881DB51D1300673609 /* Assets.xcassets in Resources */,
+				EDAFC9861DB51D1300673609 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAFC98F1DB51D1300673609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAFC99A1DB51D1300673609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDAFC9791DB51D1300673609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAFC9831DB51D1300673609 /* ViewController.swift in Sources */,
+				EDAFC9811DB51D1300673609 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAFC98D1DB51D1300673609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAFC9961DB51D1300673609 /* selectDayPicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAFC9981DB51D1300673609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAFC9A11DB51D1300673609 /* selectDayPicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDAFC9931DB51D1300673609 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDAFC97C1DB51D1300673609 /* selectDayPic */;
+			targetProxy = EDAFC9921DB51D1300673609 /* PBXContainerItemProxy */;
+		};
+		EDAFC99E1DB51D1300673609 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDAFC97C1DB51D1300673609 /* selectDayPic */;
+			targetProxy = EDAFC99D1DB51D1300673609 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDAFC9841DB51D1300673609 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDAFC9851DB51D1300673609 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDAFC9891DB51D1300673609 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDAFC98A1DB51D1300673609 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDAFC9A31DB51D1300673609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDAFC9A41DB51D1300673609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDAFC9A61DB51D1300673609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = selectDayPic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.selectDayPic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDAFC9A71DB51D1300673609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = selectDayPic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.selectDayPic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EDAFC9A91DB51D1300673609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = selectDayPicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.selectDayPicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/selectDayPic.app/selectDayPic";
+			};
+			name = Debug;
+		};
+		EDAFC9AA1DB51D1300673609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = selectDayPicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.selectDayPicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/selectDayPic.app/selectDayPic";
+			};
+			name = Release;
+		};
+		EDAFC9AC1DB51D1300673609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = selectDayPicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.selectDayPicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = selectDayPic;
+			};
+			name = Debug;
+		};
+		EDAFC9AD1DB51D1300673609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = selectDayPicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.selectDayPicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = selectDayPic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDAFC9781DB51D1300673609 /* Build configuration list for PBXProject "selectDayPic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAFC9A31DB51D1300673609 /* Debug */,
+				EDAFC9A41DB51D1300673609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDAFC9A51DB51D1300673609 /* Build configuration list for PBXNativeTarget "selectDayPic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAFC9A61DB51D1300673609 /* Debug */,
+				EDAFC9A71DB51D1300673609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDAFC9A81DB51D1300673609 /* Build configuration list for PBXNativeTarget "selectDayPicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAFC9A91DB51D1300673609 /* Debug */,
+				EDAFC9AA1DB51D1300673609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDAFC9AB1DB51D1300673609 /* Build configuration list for PBXNativeTarget "selectDayPicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAFC9AC1DB51D1300673609 /* Debug */,
+				EDAFC9AD1DB51D1300673609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDAFC9751DB51D1300673609 /* Project object */;
+}
