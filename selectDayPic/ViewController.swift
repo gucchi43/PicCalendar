@@ -7,12 +7,22 @@
 //
 
 import UIKit
+import Photos
+import SwiftDate
+
+
 
 class ViewController: UIViewController {
 
+    var photosMonth = [Photos]()
+
+    struct Photos {
+        var exist: Bool = false
+        var photos: [PHAsset] = []
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +30,69 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func tapSecondButton(sender: AnyObject) {
+        getAllPic()
+    }
 
+    @IBAction func tapFourButton(sender: AnyObject) {
+        print("Calendarに遷移")
+    }
+
+    func getAllPic() {
+        //全てのカメラロールの画像を取得する。
+
+            // オプションを指定してフェッチします
+            let fetchOption = PHFetchOptions()
+            //        fetchOption.predicate = NSPredicate(format: "(creationDate >= %@) and (creationDate) < %@", fromDate!, toDate)
+            fetchOption.sortDescriptors = [NSSortDescriptor(key: "creationDate", ascending: false)]
+
+            var assets:PHFetchResult = PHAsset.fetchAssetsWithMediaType(PHAssetMediaType.Image, options: fetchOption)
+            print(assets.debugDescription);
+            assets.enumerateObjectsUsingBlock({ obj, idx, stop in
+
+                if obj is PHAsset
+                {
+                    let asset:PHAsset = obj as! PHAsset
+                    print("Asset IDX:\(idx)")
+                    print("mediaType:\(asset.mediaType)")
+                    print("mediaSubtypes:\(asset.mediaSubtypes)")
+                    print("pixelWidth:\(asset.pixelWidth)")
+                    print("pixelHeight:\(asset.pixelHeight)")
+                    print("creationDate:\(asset.creationDate)")
+                    print("modificationDate:\(asset.modificationDate)")
+                    print("duration:\(asset.duration)")
+                    print("favorite:\(asset.favorite)")
+                    print("hidden:\(asset.hidden)")
+                    let kyeString = (asset.creationDate?.toString(DateFormat.Custom("yyyy/MM")))!
+                    let dateString = (asset.creationDate?.toString(DateFormat.Custom("yyyyMMdd")))! + "&p"
+                    self.setPicArrayData(kyeString, dateString: dateString)
+                }
+            })
+    }
+
+    func setPicArrayData(keyString: String, dateString: String) {
+            //                        let dayString = created_at.substringToIndex(created_at.startIndex.advancedBy(3))
+
+            if PicDataArray.sharedSingleton.PicDayDic[keyString]?.isEmpty == false { //keyがあるか？ value = [String]のはず
+                //keyがあった時
+                if (PicDataArray.sharedSingleton.PicDayDic[keyString]! as [String]).last != dateString { //valuesの中の最後が追加するStringと同じか？
+                    //Stringが違う時
+                    let newValues = PicDataArray.sharedSingleton.PicDayDic[keyString]! as [String] + [dateString]
+                    print("oldValues : ", PicDataArray.sharedSingleton.PicDayDic[keyString]! as [String])
+                    print("newValues : ", newValues)
+                    print("前の tweetedDayDic", PicDataArray.sharedSingleton.PicDayDic[keyString])
+                    PicDataArray.sharedSingleton.PicDayDic.updateValue(newValues, forKey: keyString)
+                    print("後の tweetedDayDic", PicDataArray.sharedSingleton.PicDayDic[keyString])
+                    print("後の tweetedDayDic All ver", PicDataArray.sharedSingleton.PicDayDic)
+                }else {
+                    //Stringが同じ時
+                    print("もうこのValuesは追加されている")
+                }
+            } else {
+                //keyがなかった時
+                PicDataArray.sharedSingleton.PicDayDic.updateValue([dateString], forKey: keyString)
+                print("新しいkeyの tweetedDayDic All ver", PicDataArray.sharedSingleton.PicDayDic)
+            }
+    }
 }
 

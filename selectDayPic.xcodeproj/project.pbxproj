@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED27019F1DB66E99003E0FF2 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED27019B1DB66E99003E0FF2 /* CalendarViewController.swift */; };
+		ED2701A01DB66E99003E0FF2 /* CalculateCalendarLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED27019C1DB66E99003E0FF2 /* CalculateCalendarLogic.swift */; };
+		ED2701A21DB66E99003E0FF2 /* DeviseSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED27019E1DB66E99003E0FF2 /* DeviseSize.swift */; };
+		ED2701A41DB672A7003E0FF2 /* GetOneDayPic.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2701A31DB672A7003E0FF2 /* GetOneDayPic.swift */; };
+		ED2701A81DB743FF003E0FF2 /* Calendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2701A71DB743FF003E0FF2 /* Calendar.storyboard */; };
+		EDA3B6D71DB65E17005BD0CC /* PicDataArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA3B6D61DB65E17005BD0CC /* PicDataArray.swift */; };
 		EDAFC9811DB51D1300673609 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAFC9801DB51D1300673609 /* AppDelegate.swift */; };
 		EDAFC9831DB51D1300673609 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAFC9821DB51D1300673609 /* ViewController.swift */; };
 		EDAFC9861DB51D1300673609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAFC9841DB51D1300673609 /* Main.storyboard */; };
@@ -14,6 +20,8 @@
 		EDAFC98B1DB51D1300673609 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAFC9891DB51D1300673609 /* LaunchScreen.storyboard */; };
 		EDAFC9961DB51D1300673609 /* selectDayPicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAFC9951DB51D1300673609 /* selectDayPicTests.swift */; };
 		EDAFC9A11DB51D1300673609 /* selectDayPicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAFC9A01DB51D1300673609 /* selectDayPicUITests.swift */; };
+		EDAFC9AF1DB51D9A00673609 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDAFC9AE1DB51D9A00673609 /* Photos.framework */; };
+		EDAFC9B11DB525B600673609 /* SwiftDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDAFC9B01DB525B600673609 /* SwiftDate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED27019B1DB66E99003E0FF2 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarViewController.swift; path = ../../OneDayTwitter/OneDayTwitter/CalendarViewController.swift; sourceTree = "<group>"; };
+		ED27019C1DB66E99003E0FF2 /* CalculateCalendarLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalculateCalendarLogic.swift; path = ../../OneDayTwitter/OneDayTwitter/CalculateCalendarLogic.swift; sourceTree = "<group>"; };
+		ED27019E1DB66E99003E0FF2 /* DeviseSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeviseSize.swift; path = ../../OneDayTwitter/OneDayTwitter/DeviseSize.swift; sourceTree = "<group>"; };
+		ED2701A31DB672A7003E0FF2 /* GetOneDayPic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetOneDayPic.swift; sourceTree = "<group>"; };
+		ED2701A71DB743FF003E0FF2 /* Calendar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Calendar.storyboard; path = ../../OneDayTwitter/OneDayTwitter/Calendar.storyboard; sourceTree = "<group>"; };
+		EDA3B6D61DB65E17005BD0CC /* PicDataArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicDataArray.swift; sourceTree = "<group>"; };
 		EDAFC97D1DB51D1300673609 /* selectDayPic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = selectDayPic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDAFC9801DB51D1300673609 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDAFC9821DB51D1300673609 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +61,8 @@
 		EDAFC99C1DB51D1300673609 /* selectDayPicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = selectDayPicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDAFC9A01DB51D1300673609 /* selectDayPicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectDayPicUITests.swift; sourceTree = "<group>"; };
 		EDAFC9A21DB51D1300673609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDAFC9AE1DB51D9A00673609 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		EDAFC9B01DB525B600673609 /* SwiftDate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftDate.framework; path = Carthage/Build/iOS/SwiftDate.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDAFC9B11DB525B600673609 /* SwiftDate.framework in Frameworks */,
+				EDAFC9AF1DB51D9A00673609 /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +92,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED2701981DB66DF7003E0FF2 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				ED27019B1DB66E99003E0FF2 /* CalendarViewController.swift */,
+				ED27019C1DB66E99003E0FF2 /* CalculateCalendarLogic.swift */,
+				ED27019E1DB66E99003E0FF2 /* DeviseSize.swift */,
+				ED2701A71DB743FF003E0FF2 /* Calendar.storyboard */,
+			);
+			name = Calendar;
+			sourceTree = "<group>";
+		};
+		ED2701991DB66E18003E0FF2 /* Top */ = {
+			isa = PBXGroup;
+			children = (
+				EDAFC9841DB51D1300673609 /* Main.storyboard */,
+				EDAFC9821DB51D1300673609 /* ViewController.swift */,
+				EDAFC9801DB51D1300673609 /* AppDelegate.swift */,
+			);
+			name = Top;
+			sourceTree = "<group>";
+		};
+		ED27019A1DB66E77003E0FF2 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				EDA3B6D61DB65E17005BD0CC /* PicDataArray.swift */,
+				ED2701A31DB672A7003E0FF2 /* GetOneDayPic.swift */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
 		EDAFC9741DB51D1300673609 = {
 			isa = PBXGroup;
 			children = (
@@ -97,10 +145,12 @@
 		EDAFC97F1DB51D1300673609 /* selectDayPic */ = {
 			isa = PBXGroup;
 			children = (
-				EDAFC9801DB51D1300673609 /* AppDelegate.swift */,
-				EDAFC9821DB51D1300673609 /* ViewController.swift */,
-				EDAFC9841DB51D1300673609 /* Main.storyboard */,
+				ED2701991DB66E18003E0FF2 /* Top */,
+				ED27019A1DB66E77003E0FF2 /* Manager */,
+				ED2701981DB66DF7003E0FF2 /* Calendar */,
 				EDAFC9871DB51D1300673609 /* Assets.xcassets */,
+				EDAFC9AE1DB51D9A00673609 /* Photos.framework */,
+				EDAFC9B01DB525B600673609 /* SwiftDate.framework */,
 				EDAFC9891DB51D1300673609 /* LaunchScreen.storyboard */,
 				EDAFC98C1DB51D1300673609 /* Info.plist */,
 			);
@@ -135,6 +185,7 @@
 				EDAFC9791DB51D1300673609 /* Sources */,
 				EDAFC97A1DB51D1300673609 /* Frameworks */,
 				EDAFC97B1DB51D1300673609 /* Resources */,
+				EDAFC9B21DB5261000673609 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -193,6 +244,7 @@
 				TargetAttributes = {
 					EDAFC97C1DB51D1300673609 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LZVK55AH8Y;
 					};
 					EDAFC9901DB51D1300673609 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -229,6 +281,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED2701A81DB743FF003E0FF2 /* Calendar.storyboard in Resources */,
 				EDAFC98B1DB51D1300673609 /* LaunchScreen.storyboard in Resources */,
 				EDAFC9881DB51D1300673609 /* Assets.xcassets in Resources */,
 				EDAFC9861DB51D1300673609 /* Main.storyboard in Resources */,
@@ -251,12 +304,34 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		EDAFC9B21DB5261000673609 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftDate.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EDAFC9791DB51D1300673609 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED2701A01DB66E99003E0FF2 /* CalculateCalendarLogic.swift in Sources */,
+				ED2701A41DB672A7003E0FF2 /* GetOneDayPic.swift in Sources */,
+				ED27019F1DB66E99003E0FF2 /* CalendarViewController.swift in Sources */,
+				ED2701A21DB66E99003E0FF2 /* DeviseSize.swift in Sources */,
 				EDAFC9831DB51D1300673609 /* ViewController.swift in Sources */,
+				EDA3B6D71DB65E17005BD0CC /* PicDataArray.swift in Sources */,
 				EDAFC9811DB51D1300673609 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,10 +474,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = selectDayPic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.selectDayPic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +492,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = selectDayPic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.selectDayPic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +571,7 @@
 				EDAFC9A71DB51D1300673609 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDAFC9A81DB51D1300673609 /* Build configuration list for PBXNativeTarget "selectDayPicTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +580,7 @@
 				EDAFC9AA1DB51D1300673609 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDAFC9AB1DB51D1300673609 /* Build configuration list for PBXNativeTarget "selectDayPicUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +589,7 @@
 				EDAFC9AD1DB51D1300673609 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
