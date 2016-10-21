@@ -16,6 +16,7 @@ final class PicDataArray {
     static let sharedSingleton = PicDataArray()
 
     var PicDayDic = [String: [String]]()
+    var PicDayWeekDic = [String: [String]]()
     var PicOneDayAssetArray = [PHAsset]()
     var PicOneDayImageArray = [UIImage]()
 }
