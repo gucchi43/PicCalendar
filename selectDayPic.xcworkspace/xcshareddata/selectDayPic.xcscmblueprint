@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "95BFE8F1CBF24E832724935BFFA17675707E4900",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E1B223D57C22D528502EA3AA42EC006304755F5E" : 0,
+    "95BFE8F1CBF24E832724935BFFA17675707E4900" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FFC5BA69-F288-4307-B72A-DD466251FD62",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E1B223D57C22D528502EA3AA42EC006304755F5E" : "OneDayTwitter\/",
+    "95BFE8F1CBF24E832724935BFFA17675707E4900" : "selectDayPic\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "selectDayPic",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "selectDayPic.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:gucchi43\/PicCalendar.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "95BFE8F1CBF24E832724935BFFA17675707E4900"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:gucchi43\/TWCalendar.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E1B223D57C22D528502EA3AA42EC006304755F5E"
+    }
+  ]
+}
