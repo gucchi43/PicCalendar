@@ -1,1 +1,2 @@
 github "malcommac/SwiftDate" == 3.0.9
+github "SnapKit/SnapKit" == 0.22.0

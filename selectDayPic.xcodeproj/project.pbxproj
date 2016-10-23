@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97EFD798CA5852E19D17E9E4 /* Pods_selectDayPicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B61B2B1DCB4D504A98461F2 /* Pods_selectDayPicTests.framework */; };
+		B9D0342A941FC0EAAA5DF700 /* Pods_selectDayPic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D1F3D4C594A9DD5D4405E6C /* Pods_selectDayPic.framework */; };
+		BC9438F94CBE2044727E86D9 /* Pods_selectDayPicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F13834CA695C24B150A7A8D /* Pods_selectDayPicUITests.framework */; };
+		ED08F85C1DBBB43100D877E4 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED08F85B1DBBB43100D877E4 /* ColorManager.swift */; };
+		ED08F85E1DBBD87100D877E4 /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED08F85D1DBBD87100D877E4 /* UIExtension.swift */; };
 		ED27019F1DB66E99003E0FF2 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED27019B1DB66E99003E0FF2 /* CalendarViewController.swift */; };
 		ED2701A01DB66E99003E0FF2 /* CalculateCalendarLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED27019C1DB66E99003E0FF2 /* CalculateCalendarLogic.swift */; };
 		ED2701A21DB66E99003E0FF2 /* DeviseSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED27019E1DB66E99003E0FF2 /* DeviseSize.swift */; };
 		ED2701A41DB672A7003E0FF2 /* GetOneDayPic.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2701A31DB672A7003E0FF2 /* GetOneDayPic.swift */; };
 		ED2701A81DB743FF003E0FF2 /* Calendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2701A71DB743FF003E0FF2 /* Calendar.storyboard */; };
+		ED413DA31DBCDA5500881F53 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED413DA21DBCDA5500881F53 /* GoogleService-Info.plist */; };
 		EDA3B6D71DB65E17005BD0CC /* PicDataArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA3B6D61DB65E17005BD0CC /* PicDataArray.swift */; };
 		EDAFC9811DB51D1300673609 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAFC9801DB51D1300673609 /* AppDelegate.swift */; };
 		EDAFC9831DB51D1300673609 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAFC9821DB51D1300673609 /* ViewController.swift */; };
@@ -42,11 +48,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B61B2B1DCB4D504A98461F2 /* Pods_selectDayPicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_selectDayPicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D1F3D4C594A9DD5D4405E6C /* Pods_selectDayPic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_selectDayPic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F13834CA695C24B150A7A8D /* Pods_selectDayPicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_selectDayPicUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B66D125E1DBA03E5A7F6B7 /* Pods-selectDayPicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-selectDayPicTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-selectDayPicTests/Pods-selectDayPicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		67D8DA927A8F39E6598A9611 /* Pods-selectDayPicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-selectDayPicUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-selectDayPicUITests/Pods-selectDayPicUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		67EE7736231EF117C58AE64F /* Pods-selectDayPic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-selectDayPic.release.xcconfig"; path = "Pods/Target Support Files/Pods-selectDayPic/Pods-selectDayPic.release.xcconfig"; sourceTree = "<group>"; };
+		8F28C812000F2BB865113F15 /* Pods-selectDayPic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-selectDayPic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-selectDayPic/Pods-selectDayPic.debug.xcconfig"; sourceTree = "<group>"; };
+		AECD64F203C94F5D13DFC112 /* Pods-selectDayPicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-selectDayPicUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-selectDayPicUITests/Pods-selectDayPicUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ED08F85B1DBBB43100D877E4 /* ColorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		ED08F85D1DBBD87100D877E4 /* UIExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
 		ED27019B1DB66E99003E0FF2 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarViewController.swift; path = ../../OneDayTwitter/OneDayTwitter/CalendarViewController.swift; sourceTree = "<group>"; };
 		ED27019C1DB66E99003E0FF2 /* CalculateCalendarLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalculateCalendarLogic.swift; path = ../../OneDayTwitter/OneDayTwitter/CalculateCalendarLogic.swift; sourceTree = "<group>"; };
 		ED27019E1DB66E99003E0FF2 /* DeviseSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeviseSize.swift; path = ../../OneDayTwitter/OneDayTwitter/DeviseSize.swift; sourceTree = "<group>"; };
 		ED2701A31DB672A7003E0FF2 /* GetOneDayPic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetOneDayPic.swift; sourceTree = "<group>"; };
 		ED2701A71DB743FF003E0FF2 /* Calendar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Calendar.storyboard; path = ../../OneDayTwitter/OneDayTwitter/Calendar.storyboard; sourceTree = "<group>"; };
+		ED413DA21DBCDA5500881F53 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EDA3B6D61DB65E17005BD0CC /* PicDataArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicDataArray.swift; sourceTree = "<group>"; };
 		EDAFC97D1DB51D1300673609 /* selectDayPic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = selectDayPic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDAFC9801DB51D1300673609 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +80,7 @@
 		EDAFC9A21DB51D1300673609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDAFC9AE1DB51D9A00673609 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		EDAFC9B01DB525B600673609 /* SwiftDate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftDate.framework; path = Carthage/Build/iOS/SwiftDate.framework; sourceTree = SOURCE_ROOT; };
+		F4F50E3FF917E2F1662051D6 /* Pods-selectDayPicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-selectDayPicTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-selectDayPicTests/Pods-selectDayPicTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +90,7 @@
 			files = (
 				EDAFC9B11DB525B600673609 /* SwiftDate.framework in Frameworks */,
 				EDAFC9AF1DB51D9A00673609 /* Photos.framework in Frameworks */,
+				B9D0342A941FC0EAAA5DF700 /* Pods_selectDayPic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97EFD798CA5852E19D17E9E4 /* Pods_selectDayPicTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,12 +106,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC9438F94CBE2044727E86D9 /* Pods_selectDayPicUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		93E1F358BAEA7FACBBF62124 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D1F3D4C594A9DD5D4405E6C /* Pods_selectDayPic.framework */,
+				0B61B2B1DCB4D504A98461F2 /* Pods_selectDayPicTests.framework */,
+				1F13834CA695C24B150A7A8D /* Pods_selectDayPicUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E93E26B1DBEB6E974FEAD148 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F28C812000F2BB865113F15 /* Pods-selectDayPic.debug.xcconfig */,
+				67EE7736231EF117C58AE64F /* Pods-selectDayPic.release.xcconfig */,
+				34B66D125E1DBA03E5A7F6B7 /* Pods-selectDayPicTests.debug.xcconfig */,
+				F4F50E3FF917E2F1662051D6 /* Pods-selectDayPicTests.release.xcconfig */,
+				67D8DA927A8F39E6598A9611 /* Pods-selectDayPicUITests.debug.xcconfig */,
+				AECD64F203C94F5D13DFC112 /* Pods-selectDayPicUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		ED2701981DB66DF7003E0FF2 /* Calendar */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +160,8 @@
 		ED27019A1DB66E77003E0FF2 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				ED08F85D1DBBD87100D877E4 /* UIExtension.swift */,
+				ED08F85B1DBBB43100D877E4 /* ColorManager.swift */,
 				EDA3B6D61DB65E17005BD0CC /* PicDataArray.swift */,
 				ED2701A31DB672A7003E0FF2 /* GetOneDayPic.swift */,
 			);
@@ -129,6 +175,8 @@
 				EDAFC9941DB51D1300673609 /* selectDayPicTests */,
 				EDAFC99F1DB51D1300673609 /* selectDayPicUITests */,
 				EDAFC97E1DB51D1300673609 /* Products */,
+				E93E26B1DBEB6E974FEAD148 /* Pods */,
+				93E1F358BAEA7FACBBF62124 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,6 +201,7 @@
 				EDAFC9B01DB525B600673609 /* SwiftDate.framework */,
 				EDAFC9891DB51D1300673609 /* LaunchScreen.storyboard */,
 				EDAFC98C1DB51D1300673609 /* Info.plist */,
+				ED413DA21DBCDA5500881F53 /* GoogleService-Info.plist */,
 			);
 			path = selectDayPic;
 			sourceTree = "<group>";
@@ -182,10 +231,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDAFC9A51DB51D1300673609 /* Build configuration list for PBXNativeTarget "selectDayPic" */;
 			buildPhases = (
+				0FBD7059B76A0E17067160F4 /* [CP] Check Pods Manifest.lock */,
 				EDAFC9791DB51D1300673609 /* Sources */,
 				EDAFC97A1DB51D1300673609 /* Frameworks */,
 				EDAFC97B1DB51D1300673609 /* Resources */,
 				EDAFC9B21DB5261000673609 /* ShellScript */,
+				4419DC05BD52144277B3DFB3 /* [CP] Embed Pods Frameworks */,
+				AD4D74CDFC56BC9E30DBE4C9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,9 +252,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDAFC9A81DB51D1300673609 /* Build configuration list for PBXNativeTarget "selectDayPicTests" */;
 			buildPhases = (
+				ED4B534E216E148E32A86E09 /* [CP] Check Pods Manifest.lock */,
 				EDAFC98D1DB51D1300673609 /* Sources */,
 				EDAFC98E1DB51D1300673609 /* Frameworks */,
 				EDAFC98F1DB51D1300673609 /* Resources */,
+				45A4537C7FBEF3C77EA7A58B /* [CP] Embed Pods Frameworks */,
+				A0B8CF2CB7BD98A04E8487B7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -218,9 +273,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDAFC9AB1DB51D1300673609 /* Build configuration list for PBXNativeTarget "selectDayPicUITests" */;
 			buildPhases = (
+				BABC5E25B481B706751EC24C /* [CP] Check Pods Manifest.lock */,
 				EDAFC9981DB51D1300673609 /* Sources */,
 				EDAFC9991DB51D1300673609 /* Frameworks */,
 				EDAFC99A1DB51D1300673609 /* Resources */,
+				308CD714CFEFF414F00791F3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -283,6 +340,7 @@
 			files = (
 				ED2701A81DB743FF003E0FF2 /* Calendar.storyboard in Resources */,
 				EDAFC98B1DB51D1300673609 /* LaunchScreen.storyboard in Resources */,
+				ED413DA31DBCDA5500881F53 /* GoogleService-Info.plist in Resources */,
 				EDAFC9881DB51D1300673609 /* Assets.xcassets in Resources */,
 				EDAFC9861DB51D1300673609 /* Main.storyboard in Resources */,
 			);
@@ -305,6 +363,126 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0FBD7059B76A0E17067160F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		308CD714CFEFF414F00791F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-selectDayPicUITests/Pods-selectDayPicUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4419DC05BD52144277B3DFB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-selectDayPic/Pods-selectDayPic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45A4537C7FBEF3C77EA7A58B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-selectDayPicTests/Pods-selectDayPicTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0B8CF2CB7BD98A04E8487B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-selectDayPicTests/Pods-selectDayPicTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD4D74CDFC56BC9E30DBE4C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-selectDayPic/Pods-selectDayPic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BABC5E25B481B706751EC24C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ED4B534E216E148E32A86E09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		EDAFC9B21DB5261000673609 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -330,9 +508,11 @@
 				ED2701A41DB672A7003E0FF2 /* GetOneDayPic.swift in Sources */,
 				ED27019F1DB66E99003E0FF2 /* CalendarViewController.swift in Sources */,
 				ED2701A21DB66E99003E0FF2 /* DeviseSize.swift in Sources */,
+				ED08F85E1DBBD87100D877E4 /* UIExtension.swift in Sources */,
 				EDAFC9831DB51D1300673609 /* ViewController.swift in Sources */,
 				EDA3B6D71DB65E17005BD0CC /* PicDataArray.swift in Sources */,
 				EDAFC9811DB51D1300673609 /* AppDelegate.swift in Sources */,
+				ED08F85C1DBBB43100D877E4 /* ColorManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +652,7 @@
 		};
 		EDAFC9A61DB51D1300673609 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F28C812000F2BB865113F15 /* Pods-selectDayPic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -481,6 +662,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = selectDayPic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.selectDayPic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -490,6 +672,7 @@
 		};
 		EDAFC9A71DB51D1300673609 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67EE7736231EF117C58AE64F /* Pods-selectDayPic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -499,6 +682,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = selectDayPic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.selectDayPic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -508,6 +692,7 @@
 		};
 		EDAFC9A91DB51D1300673609 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34B66D125E1DBA03E5A7F6B7 /* Pods-selectDayPicTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = selectDayPicTests/Info.plist;
@@ -520,6 +705,7 @@
 		};
 		EDAFC9AA1DB51D1300673609 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4F50E3FF917E2F1662051D6 /* Pods-selectDayPicTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = selectDayPicTests/Info.plist;
@@ -532,6 +718,7 @@
 		};
 		EDAFC9AC1DB51D1300673609 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D8DA927A8F39E6598A9611 /* Pods-selectDayPicUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = selectDayPicUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -543,6 +730,7 @@
 		};
 		EDAFC9AD1DB51D1300673609 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AECD64F203C94F5D13DFC112 /* Pods-selectDayPicUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = selectDayPicUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

@@ -14,6 +14,11 @@ import SwiftDate
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var goToCalendarButton: UIButton!
+
+    @IBOutlet weak var loadingLabel: UILabel!
+    @IBOutlet weak var pleaseTapLabel: UILabel!
+
     var photosMonth = [Photos]()
 
     struct Photos {
@@ -23,15 +28,22 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = ColorManager.sharedSingleton.mainColor()
+//        goToCalendarButton.backgroundColor = ColorManager.sharedSingleton.accsentColor()
+        goToCalendarButton.tintColor = UIColor.whiteColor()
+        goToCalendarButton.hidden = true
+        pleaseTapLabel.hidden = true
+        getAllPic()
+    }
+
+    override func viewDidDisappear(animated: Bool) {
+        super.viewDidDisappear(animated)
+        NSNotificationCenter.defaultCenter().removeObserver(self)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-
-    @IBAction func tapSecondButton(sender: AnyObject) {
-        getAllPic()
     }
 
     @IBAction func tapFourButton(sender: AnyObject) {
@@ -71,6 +83,9 @@ class ViewController: UIViewController {
                     self.setPicWeekArrayData(keyWeekString, dateString: dateString)
                 }
             })
+//        loadingLabel.hidden = true
+//        pleaseTapLabel.hidden = false
+//        goToCalendarButton.hidden = false
     }
 
     func setPicWeekArrayData(keyString: String, dateString: String) {

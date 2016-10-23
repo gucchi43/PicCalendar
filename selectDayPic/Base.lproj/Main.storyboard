@@ -14,33 +14,53 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgw-w5-E5h">
-                                <rect key="frame" x="223" y="120" width="155" height="30"/>
-                                <state key="normal" title="Let's load Pictuer Data"/>
-                                <connections>
-                                    <action selector="tapSecondButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l2w-vi-b7U"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N10-rc-qFp">
-                                <rect key="frame" x="249" y="250" width="103" height="30"/>
-                                <state key="normal" title="Go to Calendar"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N10-rc-qFp">
+                                <rect key="frame" x="65" y="301" width="190" height="46"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="24"/>
+                                <state key="normal" title="Let's Go Calendar"/>
                                 <connections>
                                     <action selector="tapFourButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="stC-4d-S2o"/>
                                     <segue destination="IW3-gx-udW" kind="presentation" id="ukX-Aq-t98"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="loading..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QcW-Fc-SJl">
+                                <rect key="frame" x="114" y="267" width="92.5" height="34"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="please Tap!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="crE-nz-rEZ">
+                                <rect key="frame" x="103" y="268" width="113.5" height="31.5"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.58146143839999997" green="0.26859110920000001" blue="0.98595207929999995" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="N10-rc-qFp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6Rr-0s-yi0"/>
-                            <constraint firstItem="wgw-w5-E5h" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7fv-Hh-gcn"/>
-                            <constraint firstItem="N10-rc-qFp" firstAttribute="top" secondItem="wgw-w5-E5h" secondAttribute="bottom" constant="100" id="DhG-7I-1vV"/>
-                            <constraint firstItem="wgw-w5-E5h" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="JMw-hX-s6N"/>
+                            <constraint firstItem="N10-rc-qFp" firstAttribute="top" secondItem="QcW-Fc-SJl" secondAttribute="bottom" id="7RF-yo-Q8b"/>
+                            <constraint firstItem="QcW-Fc-SJl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="I30-tI-iy9"/>
+                            <constraint firstItem="N10-rc-qFp" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="VbC-CQ-xLy"/>
+                            <constraint firstItem="crE-nz-rEZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="d2L-A2-ysb"/>
+                            <constraint firstItem="QcW-Fc-SJl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ene-DA-TKE"/>
+                            <constraint firstItem="crE-nz-rEZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="w7k-bR-i3c"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="VbC-CQ-xLy"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="goToCalendarButton" destination="N10-rc-qFp" id="MTw-jJ-pQo"/>
+                        <outlet property="loadingLabel" destination="QcW-Fc-SJl" id="SVm-ah-uZO"/>
+                        <outlet property="pleaseTapLabel" destination="crE-nz-rEZ" id="lAE-UG-qlo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
